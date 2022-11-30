@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navigation">
+        <div class="container">
+            <img src="Asset 1@3x 1.png">
+            <ul>
+                <li>БАНК</li>
+                <li>БИЗНЕС</li>
+                <li>ИНВЕСТИЦИИ</li>
+                <li>СТРАХОВАНИЕ</li>
+                <li>МОБАЙЛ</li>
+                <li>ПУТЕШЕСТВИЯ</li>
+                <li>РАЗВЛЕЧЕНИЯ</li>
+            </ul>
+            <button>ВОЙТИ</button>
+        </div>
+    </div>
+    <!-- основа -->
+    <div class="container main">
+        <h1>Конвертер валют онлайн</h1>
+        <div class="convertdivs">
+            <div class="convert">
+
+                <p>У меня есть</p>
+                <ul class="currency">
+                            <div>
+                                <input type="radio" name="1" id="rub">
+                                <label for="rub">RUB</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="1" id="usd">
+                                <label for="usd">USD</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="1" id="eur">
+                                <label for="eur">EUR</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="1" id="gbp">
+                            <label for="gbp">GBP</label>
+                    </div>
+                </ul>
+                <input type="number" min="0" id="inputdiv">
+                    
+                </input>
+            </div>
+            <div class="convert">
+
+                <p>Хочу приобрести</p>
+                <ul class="currency2">
+                        <div>
+                            <input type="radio" name="2" id="rub2">
+                            <label for="rub2">RUB</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="2" id="usd2">
+                            <label for="usd2">USD</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="2" id="eur2">
+                            <label for="eur2">EUR</label>
+                        </div>
+                        <div>
+                        <input type="radio" name="2" id="gbp2">
+                        <label for="gbp2">GBP</label>
+                    </div>
+                </ul>
+                <input type="number" min="0" id="outputdiv">
+                    
+                </input>
+            </div>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
